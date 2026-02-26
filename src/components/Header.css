@@ -1,0 +1,116 @@
+.header {
+  position: relative;
+  height: 320px;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: white;
+}
+
+/* الاسم */
+
+.header-name {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 60px;   /* ← هذا اللي ينزله للوسط */
+}
+
+
+/* روابط التواصل */
+.header-links {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.header-links a {
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.header-links a:hover {
+  color: white;
+}
+
+/* زر الثلاث خطوط */
+.menu-btn {
+  position: fixed;      /* ثابتة فوق */
+  top: 22px;            /* نزّلناها شوي عشان تكون مريحة */
+  right: 28px;          /* مسافة أنعم من اليمين */
+  
+  background: transparent;
+  border: none;
+font-size: 32px !important;
+
+  color: white;
+  font-size: 22px;      /* ← حجم مناسب (لا كبير ولا صغير) */
+  cursor: pointer;
+
+  padding: 0;
+  z-index: 1000;
+}
+
+
+/* القائمة الجانبية */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -260px;
+  width: 250px;
+  height: 100vh;
+  background: #020617;
+  padding: 90px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.side-menu a:hover {
+  opacity: 0.8;
+}
+.header-links a {
+  color: #7c83ff;
+  font-size: 24px;      /* ← كبرناها */
+  margin: 0 10px;       /* ← مسافة بينهم */
+  transition: 0.2s ease;
+}
+
+.header-links a:hover {
+  color: #7c83ff;
+  transform: translateY(-3px);
+}
+.view-btn {
+  background: transparent;
+  border: 1px solid #cbd5f5;
+  color: #7c83ff;
+  padding: 10px 26px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+margin-top: 1px;
+
+  /* هذا اللي يخليه بالوسط */
+  align-self: center;
+}
+
+.view-btn:hover {
+  
+  color: #7c83ff;
+  border-color: #7c83ff;
+}

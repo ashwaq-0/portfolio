@@ -1,0 +1,17 @@
+.skills-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+}
+
+.skills-list li {
+  margin-bottom: 14px;
+  line-height: 1.7;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.skills-list strong {
+  color: #9f7cff;
+  font-weight: 600;
+}
