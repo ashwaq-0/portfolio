@@ -59,14 +59,21 @@ function Certificates() {
         ))}
       </div>
 
-      {/* ===== Modal Preview ===== */}
       {openCert && (
         <div className="cert-modal" onClick={() => setOpenCert(null)}>
-          <div className="cert-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={() => setOpenCert(null)}>✕</button>
+          <div
+            className="cert-modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="close-btn"
+              onClick={() => setOpenCert(null)}
+            >
+              ✕
+            </button>
 
             <iframe
-              src={`${process.env.PUBLIC_URL}/Certificates/${openCert}`}
+              src={`/certificates/${openCert}`}
               title="Certificate Preview"
               width="100%"
               height="100%"
