@@ -3,6 +3,7 @@ import "./Projects.css";
 
 function Projects() {
   const [openProject, setOpenProject] = useState(null);
+  const [activeCard, setActiveCard] = useState(null);
 
   const projects = [
     {
@@ -37,14 +38,7 @@ function Projects() {
 
   const getPreviewUrl = (file) => {
     const fileUrl = `${window.location.origin}/Projects/${file}`;
-
-    if (file.endsWith(".pdf")) {
-      return fileUrl;
-    }
-
-    return `https://docs.google.com/gview?url=${encodeURIComponent(
-      fileUrl
-    )}&embedded=true`;
+    return fileUrl;
   };
 
   return (
@@ -53,7 +47,13 @@ function Projects() {
 
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <div className="project-card" key={index}>
+          <div
+            className={`project-card ${
+              activeCard === index ? "active-card" : ""
+            }`}
+            key={index}
+            onClick={() => setActiveCard(index)}
+          >
             <div>
               <h3>{project.title}</h3>
               <p className="project-desc">{project.description}</p>
@@ -69,7 +69,11 @@ function Projects() {
 
             <button
               className="view-btn"
-              onClick={() => setOpenProject(project.file)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setOpenProject(project.file);
+                setActiveCard(index);
+              }}
             >
               View Project
             </button>
@@ -78,14 +82,23 @@ function Projects() {
       </div>
 
       {openProject && (
-        <div className="cert-modal" onClick={() => setOpenProject(null)}>
+        <div
+          className="cert-modal"
+          onClick={() => {
+            setOpenProject(null);
+            setActiveCard(null);
+          }}
+        >
           <div
             className="cert-modal-content"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               className="close-btn"
-              onClick={() => setOpenProject(null)}
+              onClick={() => {
+                setOpenProject(null);
+                setActiveCard(null);
+              }}
             >
               ✕
             </button>

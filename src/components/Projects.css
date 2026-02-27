@@ -1,10 +1,8 @@
-/* =========================
-   Project Card
-========================= */
+
 .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* 👈 هذا السطر المهم */
+  justify-content: space-between; 
   background: rgba(255, 255, 255, 0.03);
   border-radius: 20px;
   padding: 24px;
@@ -69,4 +67,23 @@
   position: relative;
   pointer-events: auto;
   cursor: pointer;
+}
+
+.project-card.active-card {
+  transform: translateY(-6px);
+  border: 1px solid rgba(90, 150, 255, 0.6);
+  box-shadow: 
+    0 8px 25px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(90, 150, 255, 0.35);
+}.project-card {
+  transition: box-shadow 0.25s ease, border 0.25s ease;
+  border: 1px solid transparent; 
+}
+
+.project-card:active {
+  border: 1px solid rgba(129, 140, 248, 0.9);
+  background: rgba(255,255,255,0.1);
+  box-shadow:
+    0 0 25px rgba(129, 140, 248, 0.6),
+    0 0 50px rgba(129, 140, 248, 0.3);
 }
