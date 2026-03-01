@@ -26,7 +26,7 @@ function About() {
 
         <ul className="edu-list">
           <li>GPA: 4.81 / 5</li>
-          <li>Graduation Project: University ERP System</li>
+          <li>Graduation Project:Indoor navigation application for university</li>
           <li>Strong foundation in system analysis & software engineering</li>
         </ul>
       </div>

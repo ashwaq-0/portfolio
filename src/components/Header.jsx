@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <header className="header">
-        {/* زر القائمة */}
+    
         <button
           onClick={toggleMenu}
           style={{
@@ -30,7 +30,7 @@ function Header() {
           ☰
         </button>
 
-        {/* الاسم */}
+      
         <h1 className="header-name">Ashwaq Rajeh Alotaibi</h1>
 
 <button
@@ -41,7 +41,7 @@ function Header() {
 </button>
 
 
-        {/* روابط التواصل */}
+        
         <div className="header-links">
           <a href="tel:0547304968" aria-label="Phone">
             <FaPhone />
@@ -71,7 +71,7 @@ function Header() {
         </div>
       </header>
 
-      {/* القائمة الجانبية */}
+
       <nav className={`side-menu ${menuOpen ? "open" : ""}`}>
         <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
         <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>

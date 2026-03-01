@@ -10,17 +10,16 @@
   color: white;
 }
 
-/* الاسم */
+
 
 .header-name {
   font-size: 40px;
   font-weight: 700;
   margin: 0;
-  margin-top: 60px;   /* ← هذا اللي ينزله للوسط */
+  margin-top: 60px;   
 }
 
 
-/* روابط التواصل */
 .header-links {
   display: flex;
   gap: 20px;
@@ -36,18 +35,18 @@
   color: white;
 }
 
-/* زر الثلاث خطوط */
+
 .menu-btn {
-  position: fixed;      /* ثابتة فوق */
-  top: 22px;            /* نزّلناها شوي عشان تكون مريحة */
-  right: 28px;          /* مسافة أنعم من اليمين */
+  position: fixed;      
+  top: 22px;            
+  right: 28px;          
   
   background: transparent;
   border: none;
 font-size: 32px !important;
 
   color: white;
-  font-size: 22px;      /* ← حجم مناسب (لا كبير ولا صغير) */
+  font-size: 22px;      
   cursor: pointer;
 
   padding: 0;
@@ -55,7 +54,7 @@ font-size: 32px !important;
 }
 
 
-/* القائمة الجانبية */
+
 .side-menu {
   position: fixed;
   top: 0;
@@ -86,8 +85,8 @@ font-size: 32px !important;
 }
 .header-links a {
   color: #7c83ff;
-  font-size: 24px;      /* ← كبرناها */
-  margin: 0 10px;       /* ← مسافة بينهم */
+  font-size: 24px;      
+  margin: 0 10px;       
   transition: 0.2s ease;
 }
 
@@ -104,8 +103,6 @@ font-size: 32px !important;
   font-size: 14px;
   cursor: pointer;
 margin-top: 1px;
-
-  /* هذا اللي يخليه بالوسط */
   align-self: center;
 }
 

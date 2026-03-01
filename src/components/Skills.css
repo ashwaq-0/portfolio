@@ -1,17 +1,56 @@
-.skills-list {
-  list-style: none;
-  padding: 0;
-  max-width: 800px;
+/* ===== Skills Card ===== */
+
+#skills .skills-card {
+  background: linear-gradient(
+    135deg,
+    #111827 0%,
+    #1e293b 50%,
+    #0f172a 100%
+  );
+
+  padding: 40px;
+  border-radius: 20px;
+
+  /* شكل كرت طبيعي بدون إضاءة */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: visible;
 }
 
-.skills-list li {
-  margin-bottom: 14px;
-  line-height: 1.7;
-  color: #e5e7eb;
-  font-size: 0.95rem;
+/* يضيء فقط عند الضغط */
+#skills .skills-card:active {
+  border: 1px solid rgba(129, 140, 248, 0.9);
+
+  box-shadow:
+    0 0 25px rgba(129, 140, 248, 0.6),
+    0 0 50px rgba(129, 140, 248, 0.3);
 }
 
-.skills-list strong {
-  color: #9f7cff;
+/* ===== Skills Content ===== */
+
+#skills .skills-group {
+  margin-bottom: 28px;
+}
+
+#skills .skills-group h4 {
+  margin-bottom: 12px;
+  color: #cbd5e1;
   font-weight: 600;
+}
+
+#skills .skills-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills .skills-chips span {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #e2e8f0;
 }

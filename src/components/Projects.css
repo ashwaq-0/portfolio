@@ -10,19 +10,19 @@
   position: relative;
 }
 
-/* Title */
+
 .project-card h3 {
   margin-bottom: 10px;
 }
 
-/* Description */
+
 .project-card p {
   color: #cfd6ff;
   line-height: 1.6;
   margin-bottom: 16px;
 }
 
-/* Tech tags */
+
 .tech-icons {
   display: flex;
   gap: 8px;
@@ -31,7 +31,7 @@
 }
 
 
-/* ===== Tags ===== */
+
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -47,14 +47,14 @@
   font-size: 13px;
   font-weight: 500;
 }
-/* ===== Description ===== */
+
 .project-desc {
   color: #b8c4ff;
   line-height: 1.7;
   font-size: 15px;
   margin-bottom: 25px;
 }
-/* ===== Title inside card ===== */
+
 .project-card h3 {
   font-size: 22px;
   font-weight: 600;
