@@ -185,7 +185,7 @@ html {
   font-size: 12px;
   color: #a5b4fc;
 }
-/* Filters */
+
 .filters {
   display: flex;
   justify-content: center;
@@ -210,7 +210,7 @@ html {
   border-color: #6366f1;
 }
 
-/* Tech Icons */
+
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
@@ -226,7 +226,7 @@ html {
   border-radius: 12px;
 }
 
-/* Button small */
+
 .btn.small {
   display: inline-block;
   margin-top: 10px;
@@ -234,7 +234,7 @@ html {
   padding: 6px 14px;
 }
 
-/* Animation */
+
 .fade-in {
   animation: fadeUp 0.6s ease forwards;
 }
@@ -258,7 +258,7 @@ html {
   gap: 24px;
 }
 
-/* شاشات كبيرة */
+
 @media (min-width: 900px) {
   .about-wrapper {
     grid-template-columns: 1.2fr 1fr;
@@ -303,13 +303,13 @@ html {
     font-size: 1.6rem;
   }
 }
-/* ===== RESET LINKS ===== */
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* ===== PILL BUTTONS ===== */
+
 .pill {
   padding: 8px 16px;
   border-radius: 999px;
@@ -339,7 +339,7 @@ a {
 }
 .header {
   background: linear-gradient(180deg, #020617, #020617);
-  height: 260px; /* صغرنا الهيدر */
+  height: 260px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -389,7 +389,7 @@ a {
 .menu-btn:hover {
   background: rgba(255, 255, 255, 0.18);
 }
-/* فلترة */
+
 .filter-buttons {
   display: flex;
   gap: 10px;
@@ -417,7 +417,7 @@ a {
   color: #000;
 }
 
-/* شبكة الشهادات */
+
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -478,13 +478,13 @@ a {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* مهم جداً */
+  justify-content: space-between; 
   height: 100%;
   padding: 24px;
 }
 .view-btn {
-  margin-top: auto;        /* يثبت الزر بالأسفل */
-  align-self: flex-start;  /* نفس المكان بكل كرت */
+  margin-top: auto;        
+  align-self: flex-start;  
   background: #7c83ff;
   color: #fff;
   padding: 8px 18px;
@@ -702,7 +702,7 @@ html {
   font-size: 12px;
   color: #a5b4fc;
 }
-/* Filters */
+
 .filters {
   display: flex;
   justify-content: center;
@@ -727,7 +727,7 @@ html {
   border-color: #6366f1;
 }
 
-/* Tech Icons */
+
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
@@ -743,7 +743,7 @@ html {
   border-radius: 12px;
 }
 
-/* Button small */
+
 .btn.small {
   display: inline-block;
   margin-top: 10px;
@@ -751,7 +751,7 @@ html {
   padding: 6px 14px;
 }
 
-/* Animation */
+
 .fade-in {
   animation: fadeUp 0.6s ease forwards;
 }
@@ -775,7 +775,7 @@ html {
   gap: 24px;
 }
 
-/* شاشات كبيرة */
+
 @media (min-width: 900px) {
   .about-wrapper {
     grid-template-columns: 1.2fr 1fr;
@@ -833,13 +833,13 @@ html {
     font-size: 1.6rem;
   }
 }
-/* ===== RESET LINKS ===== */
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* ===== PILL BUTTONS ===== */
+
 .pill {
   padding: 8px 16px;
   border-radius: 999px;
@@ -869,7 +869,7 @@ a {
 }
 .header {
   background: linear-gradient(180deg, #020617, #020617);
-  height: 260px; /* صغرنا الهيدر */
+  height: 260px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -919,7 +919,7 @@ a {
 .menu-btn:hover {
   background: rgba(255, 255, 255, 0.18);
 }
-/* فلترة */
+
 .filter-buttons {
   display: flex;
   gap: 10px;
@@ -947,7 +947,7 @@ a {
   color: #000;
 }
 
-/* شبكة الشهادات */
+
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -1008,13 +1008,13 @@ a {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* مهم جداً */
+  justify-content: space-between; 
   height: 100%;
   padding: 24px;
 }
 .view-btn {
-  margin-top: auto;        /* يثبت الزر بالأسفل */
-  align-self: flex-start;  /* نفس المكان بكل كرت */
+  margin-top: auto;       
+  align-self: flex-start;  
   background: #7c83ff;
   color: #fff;
   padding: 8px 18px;
@@ -1045,7 +1045,7 @@ a {
   margin-top: auto;
   align-self: center;
 }
-/* ===== Skills – Clean Chips ===== */
+
 .skills-chips {
   display: flex;
   flex-wrap: wrap;

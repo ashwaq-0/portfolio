@@ -1,4 +1,4 @@
-/* ===== Skills Card ===== */
+
 
 #skills .skills-card {
   background: linear-gradient(
@@ -11,7 +11,7 @@
   padding: 40px;
   border-radius: 20px;
 
-  /* شكل كرت طبيعي بدون إضاءة */
+
   border: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 
@@ -20,7 +20,7 @@
   overflow: visible;
 }
 
-/* يضيء فقط عند الضغط */
+
 #skills .skills-card:active {
   border: 1px solid rgba(129, 140, 248, 0.9);
 
@@ -29,7 +29,7 @@
     0 0 50px rgba(129, 140, 248, 0.3);
 }
 
-/* ===== Skills Content ===== */
+
 
 #skills .skills-group {
   margin-bottom: 28px;
