@@ -5,7 +5,7 @@ function Skills() {
     <section id="skills" className="section">
       <h2 className="section-title">Skills</h2>
 
-      <div className="skills-card">
+      <div className="skills-card" tabIndex="0">
         <div className="skills-group">
           <h4>Programming & Web</h4>
           <div className="skills-chips">
