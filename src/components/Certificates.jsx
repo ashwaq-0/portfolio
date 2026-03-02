@@ -29,7 +29,7 @@ function Certificates() {
 
   return (
     <section id="certificates" className="section">
-      <h2 className="section-title">🎓 Certifications</h2>
+      <h2 className="section-title">Certifications</h2>
 
       <div className="filter-buttons">
         {filters.map((filter) => (
