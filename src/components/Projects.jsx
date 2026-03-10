@@ -28,10 +28,10 @@ function Projects() {
       file: "Configuration management.pdf",
     },
     {
-      title: "University ERP System (Graduation Project)",
+      title: "Indoor navigation application for university (Graduation Project)",
       description:
-        "ERP-inspired web system for managing student services with role-based access, ERD design, and quality testing.",
-      tech: ["JavaScript", "PHP", "MySQL", "Katalon"],
+        "web system for managing student services with role-based access, ERD design, and quality testing.",
+      tech: ["JavaScript", "PHP", "HTML","CSS","MySQL", "Katalon"],
       file: "Graduation Project.pdf",
     },
   ];
