@@ -21,16 +21,16 @@ function Projects() {
       file: "online used books platform.pdf",
     },
     {
-      title: "Configuration Management Module",
+      title: "Adding the configuration management module to the system ",
       description:
-        "Java-based module applying Singleton and MVC patterns with GUI and unit testing.",
+        "Java-based module demonstrating the implementation of Singleton and MVC design patterns within a graphical user interface (GUI). The project includes requirements analysis, system design, and detailed specifications for getter and setter methods, along with a hand-drawn user interface prototype and implementation screenshots. The system was developed in a structured development environment and validated through unit testing with documented test results.",
       tech: ["Java", "MVC", "Singleton", "JUnit"],
       file: "Configuration management.pdf",
     },
     {
       title: "Indoor navigation application for university (Graduation Project)",
       description:
-        "web system for managing student services with role-based access, ERD design, and quality testing.",
+        "Web application designed to improve accessibility to student services within the Faculty of Engineering and Computer Science at Prince Sattam University. The system includes indoor navigation, a faculty office directory, office hours information, academic and exam schedules. The project simulates a real-world university service management system and focuses on system analysis, database modeling, UI/UX design, and software testing.",
       tech: ["JavaScript", "PHP", "HTML","CSS","MySQL", "Katalon"],
       file: "Graduation Project.pdf",
     },

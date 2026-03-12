@@ -5,11 +5,7 @@ function About() {
 
       <div className="card fade-up">
         <p className="about-text">
-          Software Engineering graduate with a strong passion for front-end
-          development, user experience design, and building clean, user-friendly
-          interfaces. I have hands-on academic experience in system analysis,
-          UI development, database design, and software testing through multiple
-          university projects and a graduation project focused on ERP systems.
+           Software Engineering graduate with practical experience in front-end development, UX design, and software testing. Skilled in system analysis, UI development, and quality testing using Katalon Studio. Passionate about continuous learning, problem-solving, and contributing to innovative projects in collaborative environments.
         </p>
 
         <hr className="divider" />
